@@ -7,8 +7,8 @@ This project provides a complete **online food ordering experience** with secure
 ---
 
 ## 🚀 Live Demo
-- **Frontend:** 
-- **Backend API:** 
+- **Frontend:**  - https://dadwals-restaurant-feus.vercel.app
+- **Backend API:** https://dadwals-restaurant.vercel.app
 
 ---
 
