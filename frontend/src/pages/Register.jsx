@@ -33,7 +33,7 @@ export default function Register() {
     { key: 'name',    icon: FiUser,   type: 'text',     label: 'Full Name',        ph: 'Ahmed Khan' },
     { key: 'email',   icon: FiMail,   type: 'email',    label: 'Email Address',    ph: 'ahmed@example.com' },
     { key: 'phone',   icon: FiPhone,  type: 'tel',      label: 'Phone Number',     ph: '+92 3XX XXXXXXX' },
-    { key: 'address', icon: FiMapPin, type: 'text',     label: 'Delivery Address', ph: 'DHA Phase 5, Lahore' },
+    { key: 'address', icon: FiMapPin, type: 'text',     label: 'Delivery Address', ph: 'DHA Phase 5, Punjab' },
   ];
 
   return (

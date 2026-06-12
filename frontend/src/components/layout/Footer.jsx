@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="font-display text-xl text-white">Dadwals</span>
             </Link>
             <p className="text-gray-500 text-sm leading-relaxed mb-5">
-              Lahore's favourite fast food destination since 2010. Serving happiness one bite at a time.
+              Punjab's favourite fast food destination since 2010. Serving happiness one bite at a time.
             </p>
             <div className="flex gap-3">
               {[FiInstagram, FiFacebook, FiTwitter].map((Icon, i) => (
@@ -53,11 +53,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-gray-500">
                 <FiMapPin className="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0" />
-                Main Blvd, Gulberg III, Lahore, Pakistan
+                Main Blvd, Gulberg III, Punjab, Punjab
               </li>
               <li className="flex items-center gap-2.5 text-sm text-gray-500">
                 <FiPhone className="w-4 h-4 text-brand-400 flex-shrink-0" />
-                +92 42 3571 0000
+                +91 1234567890
               </li>
               <li className="flex items-center gap-2.5 text-sm text-gray-500">
                 <FiClock className="w-4 h-4 text-brand-400 flex-shrink-0" />
@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 mt-10 pt-6 text-center text-xs text-gray-600">
-          © {new Date().getFullYear()} Dadwals Restaurant. All rights reserved. Built with ❤️ in Lahore.
+          © {new Date().getFullYear()} Dadwals Restaurant. All rights reserved. Built with ❤️ in Punjab.
         </div>
       </div>
     </footer>

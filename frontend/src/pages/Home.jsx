@@ -18,7 +18,7 @@ const CATEGORIES = [
 ];
 
 const REVIEWS = [
-  { name: 'Ayesha R.', rating: 5, text: 'Best burgers in Lahore, hands down! The Double Smash is legendary. Fast delivery too!', avatar: 'A' },
+  { name: 'Ayesha R.', rating: 5, text: 'Best burgers in Punjab, hands down! The Double Smash is legendary. Fast delivery too!', avatar: 'A' },
   { name: 'Hassan M.', rating: 5, text: 'Dadwals pizza changed my life. Cheese Burst is everything. My whole family orders weekly.', avatar: 'H' },
   { name: 'Sara K.',   rating: 5, text: 'The chocolate shake is unreal. I order it every single time. Can\'t recommend enough!', avatar: 'S' },
 ];
@@ -72,7 +72,7 @@ export default function Home() {
             </h1>
 
             <p className="text-gray-400 text-lg mb-10 leading-relaxed max-w-lg">
-              Lahore's most-loved fast food restaurant. From legendary burgers to wood-fired pizzas — every bite tells a story.
+              Punjab's most-loved fast food restaurant. From legendary burgers to wood-fired pizzas — every bite tells a story.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -173,9 +173,9 @@ export default function Home() {
           </div>
           <div className="animate-fade-in">
             <p className="text-brand-400 text-sm font-bold uppercase tracking-widest mb-4">Our Story</p>
-            <h2 className="section-title mb-6">Lahore's Favourite<br />Since 2010</h2>
+            <h2 className="section-title mb-6">Punjab's Favourite<br />Since 2010</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              Dadwals Restaurant was born out of a simple dream — to serve the people of Lahore the most delicious, fresh, and satisfying fast food at honest prices.
+              Dadwals Restaurant was born out of a simple dream — to serve the people of Punjab the most delicious, fresh, and satisfying fast food at honest prices.
             </p>
             <p className="text-gray-500 leading-relaxed mb-8">
               From our first outlet in Gulberg to being a household name across the city, we've stayed true to our roots: real ingredients, bold flavours, and genuine hospitality.

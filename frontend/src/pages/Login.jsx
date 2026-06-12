@@ -37,7 +37,7 @@ export default function Login() {
         <div className="absolute inset-0 bg-gradient-to-r from-dark-900/50 to-transparent" />
         <div className="absolute bottom-12 left-12">
           <h2 className="font-display text-5xl text-white mb-3">Good Food.<br />Good Mood.</h2>
-          <p className="text-gray-300 text-lg">Order from Lahore's favourite fast food restaurant.</p>
+          <p className="text-gray-300 text-lg">Order from Punjab's favourite fast food restaurant.</p>
         </div>
       </div>
 

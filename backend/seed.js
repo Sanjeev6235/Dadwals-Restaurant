@@ -47,8 +47,8 @@ const seed = async () => {
   await Order.deleteMany({});
   console.log('Cleared DB');
 
-  const admin = await User.create({ name: 'Admin Dadwals', email: 'admin@dadwals.com', password: 'admin1234', role: 'admin', phone: '+92 300 1234567', address: 'Dadwals HQ, Lahore' });
-  const user  = await User.create({ name: 'Ahmed Khan', email: 'ahmed@test.com', password: 'test1234', phone: '+92 311 9876543', address: 'DHA Phase 5, Lahore' });
+  const admin = await User.create({ name: 'Admin Dadwals', email: 'admin@dadwals.com', password: 'admin1234', role: 'admin', phone: '+92 300 1234567', address: 'Dadwals HQ, Punjab' });
+  const user  = await User.create({ name: 'Rahul Thakur', email: 'ahmed@test.com', password: 'test1234', phone: '+92 311 9876543', address: 'Mohali Phase 5, Punjab' });
 
   const foods = await Food.insertMany(menuItems);
 
@@ -60,7 +60,7 @@ const seed = async () => {
       { foodId: foods[4]._id, name: foods[4].name, price: foods[4].price, quantity: 2, image: foods[4].image },
     ],
     totalPrice: foods[0].price + foods[4].price * 2,
-    deliveryAddress: 'DHA Phase 5, Lahore',
+    deliveryAddress: 'DHA Phase 5, Punjab',
     phone: '+92 311 9876543',
     status: 'Delivered',
   });
